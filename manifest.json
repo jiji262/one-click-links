@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "build/links.min.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "build/link_grabber.min.js", "build/content.min.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_product_description__",
+   "icons": {
+      "128": "assets/icon128.png",
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png"
+   },
+  "manifest_version": 2,
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-inline'",
+   "name": "__MSG_product_name__",
+   "permissions": [ "contextMenus", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

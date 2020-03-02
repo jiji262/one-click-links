@@ -1,0 +1,64 @@
+{
+   "menu_main": {
+      "description": "Main context menu label that leads to the sub menus",
+      "message": "Open selected links"
+   },
+   "menu_sub_all": {
+      "description": "Sub context menu label that leads to open all links",
+      "message": "All ($amount$)",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "menu_sub_audio": {
+      "description": "Sub context menu label that leads to open audio only",
+      "message": "Audio ($amount$)",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "menu_sub_image": {
+      "description": "Sub context menu label that leads to open images only",
+      "message": "Images ($amount$)",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "menu_sub_video": {
+      "description": "Sub context menu label that leads to open video only",
+      "message": "Videos ($amount$)",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "product_description": {
+      "description": "Description of the extension",
+      "message": "Opens selected links in new tabs using the context menu."
+   },
+   "product_name": {
+      "description": "Open Selected Links in one click",
+      "message": "One Click Links"
+   },
+   "selection_alert_tooManyLinks": {
+      "description": "Warning the user that opening all links may slow down his computer or causes a crash",
+      "message": "You have $amount$ links to open. Are you sure you want to open them all at once?",
+      "placeholders": {
+         "amount": {
+            "content": "$1",
+            "example": "20"
+         }
+      }
+   }
+}
